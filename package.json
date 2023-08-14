@@ -1,0 +1,43 @@
+{
+  "name": "tiptap-demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@hocuspocus/provider": "^x.x.x",
+    "@tiptap/core": "^x.x.x",
+    "@tiptap/pm": "^x.x.x",
+    "@tiptap/starter-kit": "^x.x.x",
+    "@tiptap/extension-collaboration": "^x.x.x",
+    "@tiptap/extension-collaboration-cursor": "^x.x.x",
+    "yjs": "^x.x.x",
+    "y-prosemirror": "^x.x.x",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
